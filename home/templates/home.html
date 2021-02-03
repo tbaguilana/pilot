@@ -1,5 +1,10 @@
 {% extends "base.html" %}
-
+{% load static %}
 {% block page_content %}
 <h1>Hi, I'm Trina!</h1>
+<div class="col-md-4">
+    <div class="card mb-2">
+        <img class="card-img-top" src="{% static 'img/trina.png' %}">
+    </div>
+</div>
 {% endblock %}
